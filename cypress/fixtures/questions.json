@@ -1,0 +1,112 @@
+[
+  {
+    "_id": "1",
+    "question": "What is React?",
+    "answers": [
+      {
+        "text": "A JavaScript library for building user interfaces",
+        "isCorrect": true
+      },
+      {
+        "text": "A programming language",
+        "isCorrect": false
+      },
+      {
+        "text": "A database management system",
+        "isCorrect": false
+      },
+      {
+        "text": "A server-side framework",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "_id": "2",
+    "question": "What does JSX stand for?",
+    "answers": [
+      {
+        "text": "JavaScript XML",
+        "isCorrect": true
+      },
+      {
+        "text": "JavaScript Extension",
+        "isCorrect": false
+      },
+      {
+        "text": "JavaScript Syntax",
+        "isCorrect": false
+      },
+      {
+        "text": "JavaScript eXecution",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "_id": "3",
+    "question": "What is a React component?",
+    "answers": [
+      {
+        "text": "A reusable piece of UI",
+        "isCorrect": true
+      },
+      {
+        "text": "A JavaScript function",
+        "isCorrect": false
+      },
+      {
+        "text": "A CSS class",
+        "isCorrect": false
+      },
+      {
+        "text": "A HTML element",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "_id": "4",
+    "question": "What is the virtual DOM in React?",
+    "answers": [
+      {
+        "text": "A lightweight copy of the actual DOM",
+        "isCorrect": true
+      },
+      {
+        "text": "A browser feature",
+        "isCorrect": false
+      },
+      {
+        "text": "A third-party library",
+        "isCorrect": false
+      },
+      {
+        "text": "A CSS framework",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "_id": "5",
+    "question": "What is a React hook?",
+    "answers": [
+      {
+        "text": "A function that lets you use state and other React features without writing a class",
+        "isCorrect": true
+      },
+      {
+        "text": "A way to connect to external APIs",
+        "isCorrect": false
+      },
+      {
+        "text": "A method to catch errors",
+        "isCorrect": false
+      },
+      {
+        "text": "A type of React component",
+        "isCorrect": false
+      }
+    ]
+  }
+]
