@@ -117,6 +117,17 @@ To run the full test suite including E2E tests:
    npm test
    ```
 
+### Video Recording
+
+Cypress automatically records videos of test runs, which can be found in the `cypress/videos` directory:
+- E2E test videos: `cypress/videos/quiz.cy.ts.mp4`
+- Component test videos: `cypress/videos/Quiz.cy.tsx.mp4`
+
+These videos are useful for:
+- Documenting test behavior
+- Debugging test failures
+- Creating walkthrough demonstrations
+
 ### Video Walkthrough
 
 The video walkthrough demonstrates:
@@ -124,6 +135,7 @@ The video walkthrough demonstrates:
 2. Starting the application with `npm run start:dev`
 3. Running E2E tests with `npm run test:e2e`
 4. Showing all tests passing
+5. Reviewing the automatically generated test videos
 
 ## User Story
 

@@ -20,17 +20,14 @@ export default defineConfig({
     supportFile: 'cypress/support/component.ts',
   },
   e2e: {
-    // Use a dummy URL since we're stubbing all responses
-    baseUrl: 'http://localhost:8080',
+    // For demonstration purposes, don't use a baseUrl
     specPattern: 'cypress/e2e/**/*.cy.{js,jsx,ts,tsx}',
     supportFile: 'cypress/support/e2e.ts',
     setupNodeEvents(on, config) {
       // implement node event listeners here
       return config;
     },
-    // Skip server verification
-    experimentalSkipDomainInjection: ['*'],
   },
-  video: false,
+  video: true,
   screenshotOnRunFailure: true,
 });
